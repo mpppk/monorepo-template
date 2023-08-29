@@ -1,5 +1,6 @@
 import { Env, loadEnv } from "./env";
-import { logger, Logger, setLogger } from "./logger";
+import { Logger } from "common";
+import { logger, setLogger } from "./logger";
 
 const initialize = (env: Env) => {
   setLogger(
