@@ -1,4 +1,5 @@
 import { Env, loadEnv } from "./env";
+import { sum } from "@mpppk/test-lib";
 import { Logger } from "common";
 import { logger, setLogger } from "./logger";
 
@@ -12,6 +13,7 @@ const main = async () => {
   const env = loadEnv();
   initialize(env);
   logger.json(`${env.NODE_ENV}: Hello World`);
+  logger.json(`sum(1, 2) = ${sum(1, 2)}`);
 };
 
 main();
