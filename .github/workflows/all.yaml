@@ -10,6 +10,20 @@ jobs:
       - uses: actions/setup-node@v3
       - run: npm ci
       - run: npm test -w pkgs/cli
+  common:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - run: npm ci
+      - run: npm test -w pkgs/common
+  lib:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - run: npm ci
+      - run: npm test -w pkgs/lib
   next:
     runs-on: ubuntu-latest
     steps:
