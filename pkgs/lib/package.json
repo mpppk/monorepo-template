@@ -1,6 +1,6 @@
 {
   "name": "@mpppk/test-lib",
-  "version": "0.0.2",
+  "version": "0.0.2-test01",
   "scripts": {
     "build": "tsup ./src",
     "format": "prettier --write .",
