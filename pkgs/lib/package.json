@@ -3,6 +3,7 @@
   "version": "0.0.2-test01",
   "scripts": {
     "build": "tsup ./src",
+    "watch:build": "tsup ./src --watch",
     "format": "prettier --write .",
     "watch:type-check": "npx tsc --noEmit --watch",
     "test": "run-p test:*",
