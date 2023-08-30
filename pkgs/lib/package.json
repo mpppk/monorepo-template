@@ -1,6 +1,6 @@
 {
-  "name": "@mpppk/lib",
-  "version": "0.0.1",
+  "name": "@mpppk/test-lib",
+  "version": "0.0.2",
   "scripts": {
     "build": "tsup ./src",
     "format": "prettier --write .",
@@ -27,7 +27,10 @@
     "vitest": "^0.34.0",
     "zod": "^3.21.4"
   },
-  "files": ["dist", "package.json"],
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "exports": {
     ".": {
       "require": "./dist/index.js",

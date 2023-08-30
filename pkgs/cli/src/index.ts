@@ -1,5 +1,5 @@
 import { Env, loadEnv } from "./env";
-import { sum } from "@mpppk/lib";
+import { sum } from "@mpppk/test-lib";
 import { Logger } from "common";
 import { logger, setLogger } from "./logger";
 
