@@ -32,7 +32,7 @@
     "dotenv-cli": "^8.0.0",
     "eslint": "^8.47.0",
     "eslint-config-next": "^15.0.0",
-    "npm-run-all2": "^7.0.0",
+    "npm-run-all2": "^8.0.0",
     "prettier": "^3.0.1",
     "typescript": "^5.1.6",
     "vitest": "^3.0.0"
